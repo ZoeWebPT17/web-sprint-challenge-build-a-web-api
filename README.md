@@ -61,11 +61,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
-1. Understand and explain the use of Middleware?
-1. The basic principles of the REST architectural style.
-1. Understand and explain the use of Express Routers.
-1. Describe tooling used to manually test the correctness of an API.
+Node.js and express are asyncronous and event driven and they are fast.
 
+1. Understand and explain the use of Middleware?
+Middleware is software that works between an OS and an app. It allows communication amd data management.
+
+1. The basic principles of the REST architectural style.
+Representational state transfer. GET, PUT, POST , DELETE
+
+1. Understand and explain the use of Express Routers.
+They help validate and handle code. They allow for us to provide errors such as a 200,404, or 500
+
+1. Describe tooling used to manually test the correctness of an API.
+I would assume this is something like INSOMNIA or POSTMAN. These allow us to run our requests to see if they work and it is a really helpful tool.
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Instructions
@@ -91,9 +99,9 @@ Your finished project must include all of the following requirements:
 
 #### Build an API
 
-- [ ] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+- [x] Design and build endpoints for performing CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
 - [x] Add an endpoint for retrieving the list of actions for a project.
-- [ ] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
+- [x] Use an HTTP client like `postman` or `insomnia` to test the API's endpoints.
 - [x] Use Express Routers to organize the API's code.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
